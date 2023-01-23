@@ -809,7 +809,7 @@ mouse_bindings:
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 key_bindings:
-  - { key: N, mods: Control, action: SpawnNewInstance }
+  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
   - { key: Q, mods: Control, action: Quit }
   - { key: C, mods: Control|Shift, action: Copy }
   - { key: V, mods: Control|Shift, action: Paste }
